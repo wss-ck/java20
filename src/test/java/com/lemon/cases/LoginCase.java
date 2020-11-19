@@ -40,7 +40,7 @@ public class LoginCase extends BaseCase{
         addWriteBackData(sheetIndex,caseInfo.getId(), Constants.ASSERT_CELL_NUM,assertResult);
 //        9、添加日志
 //        10、报表断言
-        Assert.assertEquals(assertResult,Constants.ASSERT_SUCCESS);
+//        Assert.assertEquals(assertResult,Constants.ASSERT_SUCCESS);
     }
 
 
